@@ -3,7 +3,6 @@
 #include <OTGW.h>   // существующий объект OTGateway из проекта
 
 TFT_eSPI tft = TFT_eSPI();
-#define LV_HOR_RES_MAX 480
 static lv_disp_draw_buf_t disp_buf;
 static lv_color_t buf[LV_HOR_RES_MAX * 10];
 
